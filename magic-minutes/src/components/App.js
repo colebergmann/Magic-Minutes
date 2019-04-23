@@ -1,7 +1,12 @@
 //App.js
 
+<<<<<<< HEAD
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+=======
+import React from 'react';
+import AppRouter from "./AppRouter"
+>>>>>>> ed52c87049be3572da312cdcc791b566d437e4db
 
 function Index() {
   return <h2>Home</h2>;
@@ -15,6 +20,7 @@ function Plan() {
   return <h2>Plan</h2>;
 }
 
+<<<<<<< HEAD
 function AppRouter() {
   return (
     <Router>
@@ -32,6 +38,14 @@ function AppRouter() {
             </li>
           </ul>
         </nav>
+=======
+function App(){
+	return(
+		<div>
+			<h1>Magic Minutes!</h1>
+			<AppRouter />
+		</div>
+>>>>>>> ed52c87049be3572da312cdcc791b566d437e4db
 
         <Route path="/" exact component={Index} />
         <Route path="/about/" component={Today} />
